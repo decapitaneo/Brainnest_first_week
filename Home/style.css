@@ -4,7 +4,6 @@
   margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Lobster', cursive;
 }
 html {
   font-size: 16px;
@@ -79,7 +78,7 @@ main {
 .card__background-b {
   width: 100%;
   height: 100%;
-  background-image: url('./img/bat_background.png');
+  background-image: url('../img/bat_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -89,7 +88,7 @@ main {
 .card__background-m {
   width: 100%;
   height: 100%;
-  background-image: url('./img/mara_background.png');
+  background-image: url('../img/mara_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -99,7 +98,7 @@ main {
 .card__background-s {
   width: 100%;
   height: 100%;
-  background-image: url('./img/super_background.png');
+  background-image: url('../img/super_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -109,20 +108,22 @@ main {
 .card__background-ar {
   width: 100%;
   height: 100%;
-  background-image: url('./img/arleq_background.png');
+  background-image: url('../img/arleq_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
   background-size: cover;
 }
 
-.vector img {
-  position: absolute; /*very important heart*/
-
-  left: 20px;
-  top: 20px;
+.card__background-hik {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/cycling_background.png');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background-position: center;
+  background-size: cover;
 }
-
 .card__background-radius img {
   border-radius: 180px;
   height: 352px;
@@ -133,6 +134,7 @@ main {
   left: calc(50% - 352px / 2);
   top: 300px;
 }
+
 .elipse img {
   position: fixed;
   width: 150px;
@@ -167,6 +169,10 @@ main {
   margin-left: 44px;
   margin-right: 44px;
   flex-grow: 1;
+}
+
+.card_descricao p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .texto p {

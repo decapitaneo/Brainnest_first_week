@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lobster', cursive;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 2056px;
+  margin: auto;
+}
+
+.title {
+  width: 100%;
+  height: 224px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 67px;
+  font-size: 6.5rem;
+  font-style: normal;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  line-height: 106px;
+  background-color: #00669f;
+  box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
+}
+
+.title h {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-bottom: 190px;
+}
+
+.card__card {
+  flex-basis: 45%;
+  border-radius: 30px 0 0;
+  background-color: #f3f3f3;
+  box-shadow: 0px 16px 15px -9px rgba(0, 0, 0, 0.81);
+  position: relative; /*very important*/
+  object-fit: cover;
+  margin-top: 101px;
+  margin-bottom: 83px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 44px;
+}
+
+.card__background {
+  width: 100%;
+  height: 492.5px;
+  background-color: #ffffff;
+}
+
+.card__background-b {
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/bat_background.png');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__background-m {
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/mara_background.png');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__background-s {
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/super_background.png');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__background-ar {
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/arleq_background.png');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.vector img {
+  position: absolute; /*very important heart*/
+
+  left: 20px;
+  top: 20px;
+}
+
+.card__background-radius img {
+  border-radius: 180px;
+  height: 352px;
+  width: 352px;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute; /*preciso por o position e as posicoes left/top*/
+  left: calc(50% - 352px / 2);
+  top: 300px;
+}
+.elipse img {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 194px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.titulo {
+  font-size: 4rem;
+  line-height: 75px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card__descricao {
+  display: block;
+  margin-left: 44px;
+  margin-right: 44px;
+  flex-grow: 1;
+}
+
+.texto p {
+  font-size: 2rem;
+  text-align: justify;
+  color: #333333;
+  text-decoration: none;
+  line-height: 42px;
+  font-style: normal;
+}
+
+.btn a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: #00669f;
+  padding: 30px;
+  border: none;
+  width: 346px;
+  height: 114px;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 7px;
+  display: block;
+}
+
+.card_descricao_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: 346px;
+}
+
+.card_descricao_button img {
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .card__card {
+    object-fit: cover;
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .card__card {
+    object-fit: cover;
+    width: 80%;
+  }
+}

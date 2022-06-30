@@ -24,6 +24,7 @@ body {
 nav {
   flex: 1;
   text-align: right;
+  margin-right: 30px;
 }
 nav ul {
   display: inline-block;
@@ -69,6 +70,10 @@ a {
   text-align: center;
 }
 
+.title .hobbies h {
+  font-size: 1rem;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -107,7 +112,7 @@ main {
 .card__background-b {
   width: 100%;
   height: 100%;
-  background-image: url('../img/bat_background.png');
+  background-image: url('./Assignment_4/img/bat_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -117,7 +122,7 @@ main {
 .card__background-m {
   width: 100%;
   height: 100%;
-  background-image: url('../img/mara_background.png');
+  background-image: url('./Assignment_4/img/mara_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -127,7 +132,7 @@ main {
 .card__background-s {
   width: 100%;
   height: 100%;
-  background-image: url('../img/super_background.png');
+  background-image: url('./Assignment_4/img/super_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -137,7 +142,7 @@ main {
 .card__background-ar {
   width: 100%;
   height: 100%;
-  background-image: url('../img/arleq_background.png');
+  background-image: url('./Assignment_4/img/arleq_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
@@ -147,7 +152,7 @@ main {
 .card__background-hik {
   width: 100%;
   height: 100%;
-  background-image: url('../img/cycling_background.png');
+  background-image: url('./Assignment_4/img/cycling_background.png');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-position: center;
